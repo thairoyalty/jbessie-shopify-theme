@@ -1,0 +1,14 @@
+<section>
+  <h2 style="text-align:center">Featured Styles</h2>
+  <div class="product-grid">
+    {% for product in collections.all.products limit:8 %}
+      <div>
+        <a href="{{ product.url }}">
+          <img src="{{ product.featured_image | img_url: '400x' }}">
+          <p>{{ product.title }}</p>
+          <p>{{ product.price | money }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
