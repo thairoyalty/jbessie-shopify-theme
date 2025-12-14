@@ -1,0 +1,13 @@
+<section>
+  <div class="product-grid">
+    {% for product in collection.products %}
+      <div>
+        <a href="{{ product.url }}">
+          <img src="{{ product.featured_image | img_url: '400x' }}">
+          <p>{{ product.title }}</p>
+          <p>{{ product.price | money }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
