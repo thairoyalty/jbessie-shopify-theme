@@ -1,18 +1,47 @@
 [
   {
-    "name": "Theme settings",
+    "name": "Colors",
     "settings": [
       {
         "type": "color",
+        "id": "background",
+        "label": "Background color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
         "id": "primary",
-        "label": "Primary color",
+        "label": "Primary accent (Pink)",
         "default": "#f3a4c7"
       },
       {
         "type": "color",
         "id": "secondary",
-        "label": "Secondary color",
+        "label": "Secondary accent (Lavender)",
         "default": "#d7b7f5"
+      },
+      {
+        "type": "color",
+        "id": "text",
+        "label": "Text color",
+        "default": "#2d2d2d"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "font_picker",
+        "id": "body_font",
+        "label": "Body font",
+        "default": "inter_n4"
+      },
+      {
+        "type": "font_picker",
+        "id": "heading_font",
+        "label": "Heading font",
+        "default": "inter_n6"
       }
     ]
   }
