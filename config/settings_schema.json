@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Theme settings",
+    "settings": [
+      {
+        "type": "color",
+        "id": "primary",
+        "label": "Primary color",
+        "default": "#f3a4c7"
+      },
+      {
+        "type": "color",
+        "id": "secondary",
+        "label": "Secondary color",
+        "default": "#d7b7f5"
+      }
+    ]
+  }
+]
